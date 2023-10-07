@@ -1,0 +1,76 @@
+[
+  {
+  "id": 1,
+  "cover": "https://themecrazy.net/html/fitness-center/gym-preview/img/courses/1.jpg",
+  "title": "Body Strength Workout",
+  "time" : "6:00 AM - 9:00 AM",
+  "text" : "Suspendisse euismod eu justo eget cursus. Proin pharetra varius metus. Nam rhoncus eros.",
+  "reading_time": "1"
+  },
+  {
+  "id": 2,
+  "cover": "https://themecrazy.net/html/fitness-center/gym-preview/img/courses/2.jpg",
+  "title": "Crossfit Courses",
+  "time": " 6:00 AM - 9:00 AM",
+  "text" : "Suspendisse euismod eu justo eget cursus. Proin pharetra varius metus. Nam rhoncus eros.",
+  "reading_time": "3"
+  },
+  {
+  "id": 3,
+  "cover": "https://themecrazy.net/html/fitness-center/gym-preview/img/courses/3.jpg",
+  "title": "MUSCLE GAINING",
+  "time": " 6:00 AM - 9:00 AM",
+  "text" : "Anyone who wants to have a command over DSA with C++ can opt for this course and .",
+  "reading_time": "2"
+  },
+  {
+  "id": 4,
+  "cover": "https://themecrazy.net/html/fitness-center/gym-preview/img/courses/4.jpg",
+  "title": "HOME WORKOUT COURSES",
+  "time": " 6:00 AM - 9:00 AM",
+  "text" : "Arrays, linked lists, stacks, queues, hash tables, trees, heaps, and graphs",
+  "reading_time": "4"
+  },
+  {
+  "id": 5,
+  "cover": "https://themecrazy.net/html/fitness-center/gym-preview/img/courses/5.jpg",
+  "title": "GYMNASTIC SPORTS",
+  "time": " 6:00 AM - 9:00 AM",
+  "text" : "Suspendisse euismod eu justo eget cursus. Proin pharetra varius metus. Nam rhoncus eros. ",
+  "reading_time": "5"
+  },
+  {
+  "id": 6,
+  "cover": "https://themecrazy.net/html/fitness-center/gym-preview/img/courses/6.jpg",
+  "title": "PERSONAL TRAINING",
+  "time": " 6:00 AM - 9:00 AM",
+  "text" : "Suspendisse euismod eu justo eget cursus. Proin pharetra varius metus. Nam rhoncus eros. .",
+  "reading_time": "1"
+  },
+  {
+  "id": 7,
+  "cover": "https://duruthemes.com/demo/html/yogaguru/images/classes/02.jpg",
+  "title": "Children Yoga",
+  "time": " 6:00 AM - 9:00 AM",
+  "text" : "built to work with AWS, making it easier for your team to get set up and be productive.",
+  "reading_time": "3"
+  },
+  {
+  "id": 8,
+  "cover": "https://duruthemes.com/demo/html/yogaguru/images/classes/04.jpg",
+  "title": "Vinyasa Yoga",
+  "time": " 6:00 AM - 9:00 AM",
+  "text" : "Suspendisse euismod eu justo eget cursus. Proin pharetra varius metus. Nam rhoncus eros.",
+  "reading_time": "2"
+  },
+  {
+  "id": 9,
+  "cover": "https://themecrazy.net/html/fitness-center/gym-preview/img/courses/2.jpg",
+  "title": "CROSSFIT COURSES",
+  "time": " 6:00 AM - 9:00 AM",
+  "text" : "Suspendisse euismod eu justo eget cursus. Proin pharetra varius metus. Nam rhoncus eros.",
+  "reading_time": "1"
+  }
+
+  
+]
