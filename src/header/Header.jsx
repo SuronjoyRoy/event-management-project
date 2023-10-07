@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import userDefaultPic from '../assets/img/user.png';
+import logo from "../assets/img/logo.png";
 
 const Header = () => {
     const navLinks = <>
@@ -13,8 +14,8 @@ const Header = () => {
     return (
         <div className="navbar bg-base-100">
             <div className="navbar-start">
-                <div>
-                    <img src="../../src/assets/img/logo.png" alt="" />
+                <div className="">
+                    <img src={logo} alt="" />
                 </div>
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
