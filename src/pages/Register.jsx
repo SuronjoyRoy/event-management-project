@@ -1,12 +1,15 @@
-import { useContext } from 'react';
+import { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { AuthContect } from '../provider/AuthProvider';
 import Swal from 'sweetalert2';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Register = () => {
 
     const {createUser}= useContext(AuthContect);
-
+    const [registerError, setRegisterError] = useState('');
+    const [success, setSuccess] = useState("");
 
 
     const handlRegister = e => {
@@ -18,6 +21,21 @@ const Register = () => {
         const email = form.get('email');
         const password = form.get('password');
         console.log(name, number, email, password);
+
+        setRegisterError('');
+        setSuccess("");
+
+        if(password.length<6){
+            setRegisterError('password should be atleast 6 characters or longer');
+            return 
+        }
+        else if (!/[A-Z]/.test(password)) {
+            Swal.fire('Password do not have a capital letter');
+            return
+        }  else if (!/[!@#$%^&*]/.test(password)) {
+            Swal.fire('Password do not have a special character');
+            return
+        }
 
         createUser(email, password)
         .then(result=>{
@@ -39,6 +57,7 @@ const Register = () => {
         <div className='bg-[#0000001c] py-5'>
                 <h3 className="text-4xl my-10 text-center">Register your account</h3>
                 <form onSubmit={handlRegister} className='md:w-3/4 lg:w-1/2 mx-auto'>
+                <ToastContainer />
                     <div className="form-control">
                         <label className="label">
                             <span className="label-text">Your Name</span>

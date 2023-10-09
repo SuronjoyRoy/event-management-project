@@ -1,15 +1,17 @@
+1. Event Registration and Ticketing:
+Event management websites should allow users to easily register for events and purchase tickets online. This feature should support multiple payment methods and provide a smooth and secure checkout process. It's essential to offer various ticket types, such as early bird, VIP, or standard tickets, and include options for discounts or promo codes.
 
-1. The correct answer is: A:{}
- Explanation: In this code, a variable greeting is declared, but then, a typographical error occurs when trying to assign an empty object to it. The variable is mistakenly spelled as greetign. So, the correct output of console.log(greetign) will be an empty object, {}, because that's what is assigned to the mistakenly spelled variable.
+2. Event Listing and Promotion:
+The website should provide a platform for event organizers to list their events, including details like date, time, location, agenda, and speakers. To attract attendees, it should support multimedia content like images and videos and offer SEO optimization to enhance the visibility of events in search engines. Social media sharing options and email marketing integration can help promote events effectively.
 
-2. The correct answer is: C: "12" 
-Explanation: In the sum function, there is no explicit type checking, and JavaScript will attempt to concatenate the values if one of them is a string. In the function call sum(1, "2"), JavaScript converts the number 1 to a string and then performs string concatenation, resulting in the string "12".
+3. Event Management Dashboard:
+A robust event management dashboard is critical for organizers. It should enable them to create, edit, and manage events easily. Organizers should be able to access attendee lists, track ticket sales, and communicate with registered participants. Features like event analytics and reporting can provide valuable insights for improving future events.
 
-3. The correct answer is: A: ['🍕', '🍫', '🥑', '🍔'] 
-Explanation: In this code, the info.favoriteFood is assigned the string "🍝," but this assignment does not affect the food array. The food array remains unchanged, so the console.log(food) will output ['🍕', '🍫', '🥑', '🍔'], option A.
+4. Attendee Interaction and Engagement:
+To enhance the attendee experience, event management websites should include features like live chat, discussion forums, and Q&A sections for each event. Interactive tools like polls and surveys can engage participants and collect valuable feedback. Additionally, event apps or virtual event platforms can offer real-time engagement options for remote attendees.
 
-4. The correct answer is: B: Hi there, undefined 
-Explanation: In the sayHi function, there is a parameter name, but when you call sayHi() without providing an argument, it defaults to undefined. Therefore, the function returns "Hi there, undefined," which is option B.
+5. Event Resources and Documentation:
+Event websites can include a resource section that provides attendees with event-related documents, such as agendas, speaker bios, presentation slides, and handouts. These resources should be easily accessible before, during, and after the event. A well-organized document repository can enhance the overall event experience and serve as a valuable reference for attendees.
 
-5. The correct answer is: B: 2 
-Explanation: The forEach loop iterates over the nums array, and for each non-falsy value (in this case, all values except 0), it increments the count variable by 1. So, it will increment count for values 1, 2, and 3, resulting in a final value of 3. Therefore, the console.log(count) will output 3, which corresponds to option C.
+6. Integration and Automation:
+Event management websites should integrate with other tools and services to streamline various processes. This includes integration with email marketing platforms, CRM systems, payment gateways, and event registration tools. Automation features, such as sending confirmation emails, reminders, and post-event surveys, can save time for both organizers and attendees.
