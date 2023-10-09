@@ -123,7 +123,7 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer:B 
+#### Answer:C 
 
 <i>The forEach loop iterates over the nums array, and for each non-falsy value (in this case, all values except 0), it increments the count variable by 1. So, it will increment count for values 1, 2, and 3, resulting in a final value of 3. Therefore, the console.log(count) will output 3, which corresponds to option C.
 </i>

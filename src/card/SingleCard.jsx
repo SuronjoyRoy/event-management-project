@@ -5,7 +5,8 @@ const SingleCard = ({ card }) => {
     return (
         
         <div className="card card-compact w-100 lg:w-80  mb-5 bg-base-100 shadow-xl">
-            <figure className="md:p-5 p-2"><img src={cover} alt="img" /></figure>
+            <figure className="md:p-5 p-2"><img src={cover} alt="img"data-aos="fade-up"
+     data-aos-duration="3000" /></figure>
             <div className="card-body">
                 <h2 className="card-title">{title}</h2>
                 <p>{time}</p>

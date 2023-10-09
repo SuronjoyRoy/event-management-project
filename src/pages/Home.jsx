@@ -17,7 +17,8 @@ const Home = () => {
             <div className='py-15 my-10 bg-[#69c947]'>
                 <div className="flex-col grid grid-cols-1 lg:grid-cols-2 w-fulls">
                     <div className="">
-                        <img className='w-full' src="https://i.ibb.co/MCDstgY/testimonial.jpg" alt="testimonial" border="0" />
+                        <img className='w-full' src="https://i.ibb.co/MCDstgY/testimonial.jpg" data-aos="fade-up"
+                        data-aos-duration="3000"alt="testimonial" border="0" />
                     </div>
 
                     <div className="">
@@ -35,7 +36,8 @@ const Home = () => {
                             <p className="py-6">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae lorem.</p>
                             <button className="btn btn-primary">Get Started</button>
                         </div>
-                    <img src="https://i.ibb.co/h9MhcSg/promo-1.webp" alt="promo-1" border="0"/>
+                    <img src="https://i.ibb.co/h9MhcSg/promo-1.webp" data-aos="fade-up"
+                    data-aos-duration="3000" alt="promo-1" border="0"/>
                         
                     </div>
                 </div>
