@@ -1,21 +1,32 @@
 import { Link, NavLink } from "react-router-dom";
 import userDefaultPic from '../assets/img/user.png';
 import logo from "../assets/img/logo.png";
+import { useContext } from "react";
+import { AuthContect } from "../provider/AuthProvider";
 
 const Header = () => {
+    const { user, logOut } = useContext(AuthContect);
+
+    const handlSingOut = () => {
+        logOut()
+            .then()
+            .catch()
+    }
+
     const navLinks = <>
 
         <li><NavLink to='/'>Home</NavLink></li>
         <li><NavLink to='/about'>About</NavLink></li>
-        <li><NavLink to='/career'>Service</NavLink></li>
-        <li><NavLink to='/career'>Contact</NavLink></li>
+        <li><NavLink to='/service'>Service</NavLink></li>
+        <li><NavLink to='/contact'>Contact</NavLink></li>
+
 
     </>
     return (
         <div className="navbar bg-base-100">
             <div className="navbar-start">
                 <div className="">
-                    <img src={logo} alt="" />
+                    <img className="" src={logo} alt="" />
                 </div>
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -38,11 +49,18 @@ const Header = () => {
                         <img src={userDefaultPic} />
                     </div>
                 </label>
-                <Link>
-                    <button className="btn">Login</button>
-                </Link>
+                {
+                    user ?
+                        <button onClick={handlSingOut} className="btn">Sing Out</button>
+                        :
+                        <Link to='/login'>
+                            <button className="btn">Login</button>
+                        </Link>
+                }
+
             </div>
         </div>
+        
     );
 };
 
